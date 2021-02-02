@@ -1,0 +1,1 @@
+cmd_/home/cl/volatility/tools/linux/module.ko := /home/cl/android-ndk-r17c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/cl/volatility/tools/linux/module.ko /home/cl/volatility/tools/linux/module.o /home/cl/volatility/tools/linux/module.mod.o ;  true
